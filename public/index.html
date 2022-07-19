@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            .social-icons a {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e6e3e3;
+	margin: 20px 10px;
+	border-radius: 50%;
+  }
+  .social-icons {
+	display: flex;
+    justify-content: end;
+    padding-right: 100px;
+  }
+  .social-icons i,
+  .social i {
+	color: #000000;
+  }
+  .social-icons a:hover {
+	background-color: #000000;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	transition: all ease 0.5s;
+  }
+  .social-icons a:hover i,
+  .social a:hover i {
+	color: #ffffff;
+	transition: all ease 0.5s;
+  }
+  .social-icons a:active {
+	background-color: blue;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+	transition: all ease 0.5s;
+  }
+    .navbar{
+	margin-top: 0%;
+	background-color:black;
+	overflow: hidden;
+	text-align: left;
+	padding: 25px;
+	padding-left: 51px;
+	padding-right: 51px;
+  }
+.navbar a {
+	float: left;
+	color: #f2f2f2;
+	text-align: left;
+	padding: 1px 1px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+.navbar a:hover {
+	background-color:white;
+	color: black;
+  }
+.navbar a:active {
+	background-color:#ffd700;
+	color: white;
+  }
+  button:hover{
+    background-color: white;
+    color: blue;
+    transition: all ease 0.5s;
+  }
+  button:active{
+    background-color: #ffd700;
+    color: white;
+    transition: all ease 0.5s;
+  }
+  
+  
+        </style>
+    </head>
+    <center>    
+        <div class="navbar grid grid-cols-3 ">
+        <a class="active" href="#home">Home</a>
+        <a href="#Projects">Projects</a>
+        <a href="#contact_me">Contact_me</a>
+      </div>
+    </center>
+
+    <div class="bg-blue-700 " id="home">
+        <div class="bg-blue-600 grid md:grid-cols-2">
+        <div class="px-3 py-2 max-w-md mx-auto sm:max-2-xl md:px-10 ">
+            <img class="h-28" src="/logo.png" alt="logo">  
+            <img class="px-24 h-44 rounded-lg max-w-md mx-auto sm:mt-1 sm:px-4 sm:mx-24 md:hidden" src="/bharath.jpeg" alt="bharath pic">
+            <h1 class="px-32 mt-5 text-2xl font-semibold text-gray-50 sm:mt-3 sm:px-4 sm:mx-32 whitespace-nowrap  md:text-3xl md:ml-24">Bharath TVNS</h1>
+            <h1 class="px-24  text-2xl text-yellow-400 sm:mt-1 sm:px-4 sm:mx-24 whitespace-nowrap md:text-3xl md:px-12 md:ml-8 ">Here is my portfolio</h1>
+            <p class="mt-2 text-gray-50 text-justify  md:mt-6 md:ml-8 sm:mt-1 ">I am Bharath for BITS pilani goa Campus
+                I was born on 14 of November in 2003.
+                I am studying B.E. III nd year Mechanical branch.
+                I hail from Hyderabad, Telangana, India.I had shown my interests in exploring Data Science, Artificial Intelligence, Game Development and currently focusing on Web Development.In the below I will be displaying the project description that I had worked on.
+                </p>
+            </div>
+        
+        <div class="hidden md:block">
+            <img class=" h-auto w-auto mt-10 mb-6 px-3 py-3  " src="/bharath.jpeg" alt="Bharath">
+        </div>
+    </div>
+    <!--1st row-->
+    <center>
+    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 " id="Projects">
+        <div class="py-10 px-8">
+            <div class="rounded-lg overflow-hidden shadow-lg max-w-sm  bg-white">
+                <img src="/ds1.png" alt="Data Science" class=" h-64 ">
+                <div class="px-4 py-4">
+                    <div class="font-bold text-2xl mb-2 mt-2">
+                        <p>Mobile Price classification</p>
+                    </div>
+                    <p class="text-gray-500  text-justify mt-3">For this project, I learnt Python and some specific python libraries, which include NumPy, pandas,matplotlib etc. In The first part of the project, I analysed the data, which contains all the information about many different types of the phone with various features. After exploring that data which is given ,I  understood that the price varies with only some of the critical elements in the phone. Then I used many regression models and created a final model which has a good accuracy.
+                    </p>
+                    <button class=" bg-blue-600  text-white font-bold py-2 px-4 mx-32 mt-6  rounded-full">
+                        <a href="https://drive.google.com/file/d/1_FkGKrLmq9d-jFy2XUxoQKssaDazWhaS/view?usp=sharing" target="_blank"> Code</a>
+                        
+                      </button>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="py-10 px-8">
+            <div class="rounded-lg overflow-hidden shadow-lg max-w-sm bg-white">
+                <img src="/AI.jpg" alt="Data Science" class="w-full">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-2">
+                        <p>Digit Identification</p>
+                    </div>
+                    <p class="text-gray-500 text-justify">
+                        For this project, I learnt Python and some specific python libraries, which include TensorFlow, pandas,matplotlib etc. The project's main idea is to guess the most accurate number, which is hand-written. I got the input for analysing the data directly from the Keras library. First, I tried to explore different types of numbers and then imported some functions from the Keras library to divide the image and analyse the boxes to find the most accurate number.
+                    </p>
+                    <button class="bg-blue-600  text-white font-bold py-2 px-4 mx-32 mt-6 rounded-full">
+                        <a href="https://drive.google.com/file/d/1TQgu-KQTQaT1Ka2poe6vTYMTvda6vgXr/view?usp=sharing" target="_blank"> Code</a>
+                      </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-10 px-8">
+            <div class="rounded-lg overflow-hidden shadow-lg max-w-sm bg-white">
+                <img src="/AI.jpg" alt="Data Science" class="w-full"><div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-2">
+                        <p>Recognition Of Objects</p>
+                    </div>
+                    <p class="text-gray-500 text-justify">
+                        For this project, I learnt Python and some specific python libraries, which include TensorFlow, NumPy, Keras etc. The project's main idea is to guess some specified objects like cars, trains, buses, birds, animals, etc. I got the input for analysing the data directly from the Keras library. First, I tried to explore different types of images available and then preprocessed them to the desired type and then used convolutional layers to recognise the object, which was separated to train the dataset.
+                    </p>
+                    <button class="bg-blue-600  text-white font-bold py-2 px-4 mx-32   rounded-full">
+                        <a href="https://drive.google.com/file/d/1id6DWQeqvEVu_p9us7_hsH4jnNVErNN4/view?usp=sharing" target="_blank"> Code</a>
+                      </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </center>
+
+    <!--2nd row-->
+    <center>
+    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 md:gap-3  ">
+        <div class="py-10 px-10">
+            <div class="rounded-lg overflow-hidden shadow-lg max-w-sm  bg-white">
+                <img src="/AI.jpg" alt="Data Science" class=" ">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-2">
+                        <p>News Classification</p>
+                    </div>
+                    <p class="text-gray-500 text-justify">
+                        For this project, I learnt Python and some specific python libraries, which include TensorFlow, NumPy, Pandas, Keras etc. The project's main idea is to identify the actual news and eliminate the fake news. I got the input for analysing the data in two folders with both fake and factual news. After this, I pre-processed the data so that it could be segregated into common terms. Then I finally created a model using Passive Aggressive Classifier.
+                    </p>
+                    <button class="bg-blue-600  text-white font-bold py-2 px-4 mx-32  rounded-full">
+                        <a href ="https://drive.google.com/file/d/1seSxFkZZZJdohi8kXxwPb7ei0G5rSkgg/view?usp=sharing" target="_blank"> Code</a>
+                      </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-10 px-10">
+            <div class="rounded-lg overflow-hidden shadow-lg max-w-sm bg-white">
+                <img src="/GD.png" alt="Data Science" class="w-full">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-2xl mb-4">
+                        <p>Gesture-controlled Game</p>
+                    </div>
+                    
+                    <p class="text-gray-500 text-justify">
+                        The game intends to capture the essence and provide an insight into the Mars Orbiter Mission. The Mars Orbiter Mission (MOM), also called Mangalyaan, has been a space probe orbiting Mars since 24 September 2014. .. The game is created on the Unity game engine, which uses C# scripts to animate the game objects. The computer vision aspect will see the use of python and associated libraries as well as solutions like media pipe by google.
+                    </p>
+                    <button class="bg-blue-600  text-white font-bold py-2 px-4 mx-40 mt-6 rounded-full">
+                        <a href="https://drive.google.com/file/d/1oKKC8szcwPzwkjNHqPyHJPrYvYvbdtPt/view?usp=sharing" target="_blank"> Code</a>
+                      </button>
+                </div>
+            </div>
+        </div>
+    </center>
+    
+    </div>
+    <div class="bg-blue-800 text-gray-50 py-10">
+        <h1 class="text-center text-2xl  ">  Feel free to reach out anytime</h1>
+        <p class="text-center text-2xl py-9 ">Contact me through :- <a href="mailto:bharath.tvns@gmail.com" class="hover:text-3xl hover:text-yellow-600 active:text-white">bharath.tvns@gmail.com</a></p>
+        
+        <div class="social-icons mt-10 align" id="contact_me" >
+            <a href="https://www.facebook.com/bharath.tvns" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://wa.me/919347990395?text=%22hi%22" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/me_bharath_tvns/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/Bharathtvns" target="_blank"><i class="fab fa-git hub"></i></a>
+        </div>
+    </div>
+    </body>
+</html>
